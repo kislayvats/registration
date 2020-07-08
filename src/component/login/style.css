@@ -1,0 +1,226 @@
+/* REGISTRAION */
+/* .reg-base-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.reg-base-container .reg-header{
+    font-size: 24px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.reg-base-container .reg-content{
+    display: flex;
+    flex-direction: row; 
+}
+
+.reg-base-container .reg-image{
+    width:8em;
+    position: relative;
+    left: 28.5%; 
+}
+
+.reg-base-container .reg-image img{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reg-form{
+    margin-top: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.reg-form .reg-form-group label{
+    font-size: 20px;
+}
+
+
+.reg-form .reg-form-group input{
+    margin-top: 1px;
+    min-width: 18em;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: all 250ms ease-in-out;
+}
+
+
+.reg-form .reg-form-group input:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 14px 0.3px #0e81ce96;
+}
+
+.reg-form .reg-form-group input:focus{
+    outline: none;
+    box-shadow: 0 0 12px .8px #3474dbb2;
+}
+
+
+.reg-base-container .reg-footer{
+    margin-top: 1.1em;
+}
+
+.reg-college{
+    min-width: 290px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #f3f3f3;
+ }
+ .reg-college:hover{
+     background-color: #ffffff;
+     box-shadow: 0 0 14px 0.3px #0e81ce96;
+ }
+ .reg-college:focus{
+     outline: none;
+     box-shadow: 0 0 12px .8px #3474dbb2;
+ }
+ */
+
+/* LOGIN */
+.base-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.base-container .header{
+    font-size: 24px;
+    font-family: "Open Sans",sans-serif;
+}
+.reg-base-container .reg-content{
+    display: flex;
+    flex-direction: column; 
+}
+
+/* USER AVATAR */
+.base-container .image{
+    width:8em;
+    position: relative;
+    left: 28.5%;
+   
+}
+
+.base-container .image img{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+
+.form .form-group label{
+    font-size: 15px;
+}
+
+
+
+.form .form-group input{
+    margin-top: 1px;
+    min-width: 18em;
+    height: 37px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: all 250ms ease-in-out;
+}
+
+
+.form .form-group input:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 14px 0.3px #0e81ce96;
+}
+
+
+.form .form-group input:focus{
+    outline: none;
+    box-shadow: 0 0 12px .8px #3474dbb2;
+}
+
+
+.base-container .footer{
+    margin-top: 1.1em;
+}
+
+/* Input box (select field) for college name */
+
+.college{
+   min-width: 290px;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ background-color: #f3f3f3;
+ margin-bottom: 5px;
+}
+.college:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 14px 0.3px #0e81ce96;
+}
+.college:focus{
+    outline: none;
+    box-shadow: 0 0 12px .8px #3474dbb2;
+}
+
+@media(max-width:700px){
+    .form .form-group input{
+        margin-top: 1px;
+        min-width: 18em;
+        height: 37px;
+        padding: 0 10px;
+        font-size: 12px;
+        font-family: "Open Sans",sans-serif;
+        background-color: #f3f3f3;
+        border: 0;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        transition: all 250ms ease-in-out;
+    }
+    .college{
+        min-width: 240px;
+    
+      margin-bottom: 5px;
+     }
+}
